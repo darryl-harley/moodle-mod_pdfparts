@@ -26,9 +26,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$module->component = 'mod_pdfparts'; // To check on upgrade, that module sits in correct place
-$module->version   = 2013090100;      // The current module version (Date: YYYYMMDDXX)
-$module->requires  = 2013050100;      // Requires this Moodle version
-$module->release    = '1.0.0';
-$module->maturity = MATURITY_RC;
-$module->cron      = 0;               // Period for cron to check this module (secs)
+$plugin->component = 'mod_pdfparts'; // To check on upgrade, that module sits in correct place
+$plugin->version   = 2019070400;      // The current module version (Date: YYYYMMDDXX)
+$plugin->requires  = 2016120500;      // Requires this Moodle version
+$plugin->release    = '1.0.1 (Build: 2019070400)';
+$plugin->maturity = MATURITY_RC;
+$plugin->cron      = 0;               // Period for cron to check this module (secs)
